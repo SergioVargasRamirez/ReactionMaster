@@ -1,0 +1,17 @@
+name: ReactionMaster
+channels:
+  - conda-forge
+dependencies:
+  # Python version
+  - python=3.11
+
+  # Core packages from conda-forge
+  - streamlit
+  - sympy
+
+  # pip itself (needed for pip-installed packages)
+  - pip
+
+  # Packages only available or preferred via PyPI
+  - pip:
+      - python-dotenv
